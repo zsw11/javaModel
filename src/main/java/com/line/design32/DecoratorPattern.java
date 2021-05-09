@@ -21,7 +21,7 @@ interface Component {
     public void operation();
 }
 
-//具体构件角色
+//具体构建角色
 class ConcreteComponent implements Component {
     public ConcreteComponent() {
         System.out.println("创建具体构件角色");

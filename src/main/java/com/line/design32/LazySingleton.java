@@ -1,5 +1,7 @@
 package com.line.design32;
 
+import java.util.concurrent.*;
+
 /**
  * @author zsw
  * @date 2021/5/8 10:14
@@ -33,21 +35,41 @@ public class LazySingleton {
         }
     }
 
-    // 证明懒汉式线程是安全的
+    // 证明饿汉式线程是安全的
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 100; i++) {
+         final int threads = 100;
+        final CountDownLatch endGate = new CountDownLatch(threads);
+        for (int i = 0; i < threads; i++) {
             Thread thread = new Thread(new Runnable() {
                 @Override
                 public void run() {
                     HungrySingleton instance = HungrySingleton.getInstance();
                     instance.add();
-                    System.out.println(Thread.currentThread().getName() + instance.getClass());
+//                    System.out.println(Thread.currentThread().getName() + instance.getClass());
                 }
             }, "线程" + i);
             thread.start();
             thread.join();
         }
 //        Thread.sleep(2000);
+        System.out.println(HungrySingleton.getInstance().a);
+
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        for(int i=0;i<threads;i++){
+            Thread task = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    HungrySingleton instance = HungrySingleton.getInstance();
+                    instance.add();
+//                    System.out.println(Thread.currentThread().getName() + instance.getClass());
+                }
+            }, "线程" + i);
+            executorService.submit(task);
+//            task.join();
+            endGate.countDown();
+        }
+//        Thread.sleep(4000);
+        endGate.await();
         System.out.println(HungrySingleton.getInstance().a);
 
     }
