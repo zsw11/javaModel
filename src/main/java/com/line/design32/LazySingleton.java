@@ -1,11 +1,9 @@
 package com.line.design32;
 
-import java.util.concurrent.*;
-
 /**
  * @author zsw
  * @date 2021/5/8 10:14
- * @description :懒汉式单例
+ * @description :单例模式
  */
 public class LazySingleton {
     private static volatile LazySingleton instance = null;//保证 instance 在所有线程中同步
@@ -35,7 +33,7 @@ public class LazySingleton {
         }
     }
 
-    // 证明饿汉式线程是安全的
+    // 证明懒汉式线程是安全的,打印同一个对象
     public static void main(String[] args) throws InterruptedException {
          final int threads = 100;
         final CountDownLatch endGate = new CountDownLatch(threads);
@@ -45,7 +43,7 @@ public class LazySingleton {
                 public void run() {
                     HungrySingleton instance = HungrySingleton.getInstance();
                     instance.add();
-//                    System.out.println(Thread.currentThread().getName() + instance.getClass());
+                    System.out.println(Thread.currentThread().getName() + instance.getClass());//,打印同一个对象
                 }
             }, "线程" + i);
             thread.start();

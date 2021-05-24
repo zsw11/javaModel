@@ -2,7 +2,7 @@
 package com.line.design32;
 
 /**
- * ：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作
+ * ：适配器模式 :将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作
  */
 //对象适配器类
 class ObjectAdapter implements Target {
@@ -32,7 +32,7 @@ interface Target {
     public void request();
 }
 
-//适配者接口
+//适配者
 class Adaptee {
     public void specificRequest() {
         System.out.println("适配者中的业务代码被调用！");

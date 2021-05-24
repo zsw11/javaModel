@@ -5,9 +5,12 @@ package com.line.design32;
  */
 public class Client {
     public static void main(String[] args) {
-        Builder builder = new ConcreteBuilder();
-        Director director = new Director(builder);
-        Product product = director.construct();
-        product.show();
+        ConcreteBuilder1 concreteBuilder1 = new ConcreteBuilder1();
+        Director director1 = new Director(concreteBuilder1);
+        Product product = director1.construct();
+
+        ConcreteBuilder2 concreteBuilder2 = new ConcreteBuilder2();
+        Director director2 = new Director(concreteBuilder2);
+        Product construct = director2.construct();
     }
 }

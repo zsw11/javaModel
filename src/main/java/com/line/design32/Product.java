@@ -18,7 +18,7 @@ public class Product {
     public void setPartC(String partC) {
         this.partC = partC;
     }
-    public void show() {
-        //显示产品的特性
-    }
+//    public void show() {
+//        //显示产品的特性
+//    }
 }
