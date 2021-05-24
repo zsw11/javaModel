@@ -32,9 +32,9 @@ interface Target {
     public void request();
 }
 
-//适配者
+//适配者 方法
 class Adaptee {
     public void specificRequest() {
-        System.out.println("适配者中的业务代码被调用！");
+        System.out.println("你要适应我，，，适配者中的业务代码被调用！");
     }
 }
