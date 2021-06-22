@@ -8,7 +8,7 @@ package com.line.util;
 public class OperatorCalc {
     public static void main(String[] args) {
         // 1100 ~ => 1100 + 1 => 1101 = 13
-        System.out.println(~12);
+        System.out.println(~12); //
         // 0010 << 0001 0000 => 2*2^3 = 16
         System.out.println(2 << 3);
         // 1000 >> 2 => 0010
