@@ -67,8 +67,8 @@ public class StreamOperatorDemo {
     private static void test_to_count() {
         System.out.println("总数：" + employees.stream().collect(Collectors.counting()));
         System.out.println("平均值：" + employees.stream().collect(Collectors.averagingDouble(Employee::getSalary)));
-        System.out.println("最小值：" + employees.stream().collect(Collectors.minBy((x, y) -> Double.compare(x.getSalary(), y.getSalary()))).get()); // 已过时
-        System.out.println("最小值：" + employees.stream().min(Comparator.comparing(Employee::getSalary)).get());
+        System.out.println("最小值：" + employees.stream().min((x, y) -> Double.compare(x.getSalary(), y.getSalary())).get()); // 已过时
+        System.out.println("最小值：" + employees.stream().min(Comparator.comparing(employee -> employee.getSalary())).get());
         System.out.println("最小值：" + employees.stream().min(Comparator.comparing(Employee::getSalary).thenComparing(Employee::getAge)).get());
         System.out.println("------------另一种方式-----------");
         DoubleSummaryStatistics collect = employees.stream().collect(Collectors.summarizingDouble(Employee::getSalary));

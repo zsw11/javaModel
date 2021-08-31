@@ -16,11 +16,11 @@ public class StreamDemo {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("123", "1234", "12345", "123456", "1234567", "122222223", "123", "1234", "2422");
         Map<String, Long> collect = list.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-        System.out.println(collect);
+        System.out.println(collect); //{123=2, 2422=1, 123456=1, 1234=2, 122222223=1, 12345=1, 1234567=1}
 
         List<Student> list2 = Arrays.asList(new Student("张三"), new Student("张三"), new Student("李四"));
         Map<String, List<Student>> collect2 = list2.stream().collect(Collectors.groupingBy(Student::getName, Collectors.toList()));
-        System.out.println(collect2);
+        System.out.println(collect2); //{李四=[Student{name='李四'}], 张三=[Student{name='张三'}, Student{name='张三'}]}
         // allList(10)
         // errorList(4)
         // elseList(6)
@@ -30,7 +30,7 @@ public class StreamDemo {
         List<String> allList = Arrays.stream(str1).collect(Collectors.toList());
         List<String> errorList =  Arrays.stream(str2).collect(Collectors.toList());
         allList.removeAll(errorList);
-        System.out.println(allList);
+        System.out.println(allList);//[123456, 1234567, 122222223, 2422]
 
         Student[] students1 = new Student[] {new Student("张三"), new Student("张三"), new Student("李四")};
         Student[] students2 = new Student[] {new Student("张三")};
@@ -38,7 +38,7 @@ public class StreamDemo {
         List<Student> studentErrorList = Arrays.stream(students2).collect(Collectors.toList());
 //        System.out.println(studentAllList.stream().filter(m -> !studentErrorList.contains(m)).distinct().collect(Collectors.toList()));
         studentAllList.removeAll(studentErrorList);
-        System.out.println(studentAllList);
+        System.out.println(studentAllList);//[Student{name='李四'}]
 
         String deliveryLimit = "2h/3h"; // 2H,2h -> 2/3 -> 2H/3H
         Integer startHour = getHour(deliveryLimit, 0);

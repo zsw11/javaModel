@@ -1,13 +1,12 @@
 package com.line.lombok;
 
-import lombok.Builder;
-import lombok.Singular;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.List;
 
 @Builder
 @ToString
+@Data
 public class User {
     private final Integer id;
     private final String zipCode = "123456";

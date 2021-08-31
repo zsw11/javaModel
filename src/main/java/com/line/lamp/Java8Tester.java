@@ -44,12 +44,12 @@ public class Java8Tester {
         List<SysDict> list2 = new ArrayList<>();
         Integer value = Optional.ofNullable(list).filter(m -> m.size()>=1)
                 .map(m -> m.stream().sorted(Comparator.comparingInt(SysDict::getSort).reversed()).collect(Collectors.toList()).get(0))
-                .map(m -> Integer.valueOf(m.getValue())+1)
+                .map(m -> Integer.parseInt(m.getValue())+1)
                 .orElse(1);
         // Optional.ofNullable(list).filter(m -> m.size()>=1)
         int value2;
         if (list != null && list.size() >= 1) {
-            Collections.sort(list, Comparator.comparingInt(SysDict::getSort).reversed());
+            list.sort(Comparator.comparingInt(SysDict::getSort).reversed());
             value2 = Integer.valueOf(list.get(0).getValue()) + 1;
         } else {
             value2 = 1;
