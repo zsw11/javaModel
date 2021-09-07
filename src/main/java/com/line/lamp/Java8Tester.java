@@ -128,4 +128,17 @@ class SysDict {
                 ", sort=" + sort +
                 '}';
     }
+
+    private static Date getDate(int hour) {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(new Date());
+        cal.add(Calendar.HOUR, hour);
+        Date time = cal.getTime();
+        return time;
+    }
+
+    public static void main(String[] args) {
+        getDate(-12);
+        System.out.println(getDate(-12));
+    }
 }
