@@ -13,6 +13,13 @@ import java.util.Optional;
  */
 public class OptionalTest {
     public static void main(String[] args) {
+        String subDesc = "ZLO20210420000000011220119,";
+        String sub = subDesc.substring(0, subDesc.length() - 1);
+        System.out.println(sub);
+        int a = sub.length();
+        StringBuilder stringBuilder = new StringBuilder(sub);
+        int b = stringBuilder.length();
+        String a1 = stringBuilder.toString();
         User user = User.builder().testHobbies("ss").testHobbies("wwww").build(); //创建user对象
         User userNull = null;
         User user1 = Optional.ofNullable(userNull).orElse(User.builder().build());//userNull可以为null，如果为null,则返回user1（User.builder().build()）
