@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @desc 信号量
+ * @desc 信号量 使用Semaphore可以控制同时访问资源的线程个数
  *  停车场（5个车位，20人抢）
  * @Author xw
  * @Date 2019/8/9
