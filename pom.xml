@@ -42,6 +42,12 @@
           <version>1.16.18</version>
           <scope>compile</scope>
       </dependency>
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>1.7.21</version>
+          <scope>compile</scope>
+      </dependency>
       <!--阿里云媒体处理和消息服务-->
     <!--<dependency>
       <groupId>com.alibaba</groupId>
