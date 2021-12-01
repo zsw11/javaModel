@@ -54,7 +54,6 @@ public class Java8Tester {
         } else {
             value2 = 1;
         }
-
         System.out.println("value=" + value);
         System.out.println("value2=" + value2);
 
