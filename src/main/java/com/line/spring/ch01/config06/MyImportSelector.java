@@ -5,7 +5,7 @@ import org.springframework.core.type.AnnotationMetadata;
 
 /**
  * @desc 自定义逻辑返回需要导入的组件
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 public class MyImportSelector implements ImportSelector {

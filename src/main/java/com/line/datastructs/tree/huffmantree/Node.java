@@ -2,7 +2,7 @@ package com.line.datastructs.tree.huffmantree;
 
 /**
  * @desc Node
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class Node implements Comparable<Node> {

@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * @desc 读写锁
  *  花名册
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/9
  */
 public class ReentrantReadWriteLockDemo {

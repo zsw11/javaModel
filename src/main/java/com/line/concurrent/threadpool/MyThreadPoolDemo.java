@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 
 /**
  * @desc 线程池demo
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/23
  */
 public class MyThreadPoolDemo {

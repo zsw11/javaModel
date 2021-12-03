@@ -2,7 +2,7 @@ package com.line.datastructs.array;
 
 /**
  * @desc 稀疏数组
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/10
  */
 public class SparseArrayDemo {

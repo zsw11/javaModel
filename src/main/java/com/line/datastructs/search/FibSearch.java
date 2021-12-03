@@ -13,7 +13,7 @@ import java.util.Arrays;
  *
  * 案例：
  *  {1, 1, 2, 3, 5, 8, 13, 21, 34, 55}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/11
  */
 public class FibSearch {

@@ -4,7 +4,7 @@ package com.line.datastructs.search;
  * @desc 线性查找
  * 案例：
  *  {1, 8, 10, 89, 1000, 1234}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/11
  */
 public class OrderSearch {

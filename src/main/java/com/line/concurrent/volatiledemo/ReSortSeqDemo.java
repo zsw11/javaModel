@@ -2,7 +2,7 @@ package com.line.concurrent.volatiledemo;
 
 /**
  * @desc 指令重排
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/8
  */
 public class ReSortSeqDemo {

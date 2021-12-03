@@ -14,7 +14,7 @@ import java.util.Stack;
  *  6.链表反转
  *      6.1 数组方式反转
  *      6.2 栈的方式反转
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/30
  */
 public class SingleLinkedListDemo {

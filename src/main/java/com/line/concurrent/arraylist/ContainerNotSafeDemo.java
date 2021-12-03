@@ -13,7 +13,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
  *      2.1 new Vector<>();
  *      2.2 Collections.synchronizedList(new ArrayList<>());
  *      2.3 new CopyOnWriteArrayList<>();
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/20
  */
 public class ContainerNotSafeDemo {

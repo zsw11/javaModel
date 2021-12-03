@@ -12,7 +12,7 @@ package com.line.datastructs.queue;
  *      2.3 获取：(front++ % maxSize)
  *      2.4 遍历：for (font%maxSize -> rear*maxSize)
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/24
  */
 public class CircleArrayQueueDemo {

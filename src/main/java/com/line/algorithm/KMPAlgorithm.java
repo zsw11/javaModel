@@ -14,7 +14,7 @@ package com.line.algorithm;
  *      3）KMP算法就是利用之前判断过信息，通过一个next数组，保存模式串中前后最长公共序列的长度，每次回溯时，通过next数组找到，
  *          前面匹配的位置，省去了大量的计算时间
  *      4）参考资料：https://www.cnblogs.com/ZuoAndFutureGirl/p/9028287.html
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/27
  */
 public class KMPAlgorithm {

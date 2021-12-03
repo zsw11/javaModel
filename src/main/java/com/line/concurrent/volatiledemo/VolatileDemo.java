@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @desc volatile可见性、非原子性验证
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/19
  */
 public class VolatileDemo {

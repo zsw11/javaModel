@@ -15,7 +15,7 @@ import java.util.List;
  *      直到数列中，所有的数据都被处理，就得到一颗赫夫曼树
  *  案例：
  *      {13, 7, 8, 3, 29, 6, 1}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class HuffmanTree {

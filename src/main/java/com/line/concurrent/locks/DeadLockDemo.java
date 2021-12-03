@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @desc 死锁
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/23
  */
 public class DeadLockDemo {

@@ -39,7 +39,7 @@ import java.util.List;
  *              6.2 结点w入队列
  *              6.3 查找结点u的继w邻接结点后的下一个邻接结点w，转到步骤6
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/26
  */
 public class Graph {

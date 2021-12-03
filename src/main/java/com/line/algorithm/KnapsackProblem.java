@@ -22,7 +22,7 @@ package com.line.algorithm;
  * 吉他（G）   1   1500
  * 音响（S）   4   3000
  * 电脑（L）   3   2000
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/27
  */
 public class KnapsackProblem {

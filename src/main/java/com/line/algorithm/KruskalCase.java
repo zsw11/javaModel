@@ -8,7 +8,7 @@ import java.util.Arrays;
  * 1. 某城市新增7个站点，A,B,C,D,E,F,G,现在需要修路7个站点连通
  * 2. 各个站点距离用连线表示，比如A-B距离12公里
  * 3. 问：如何修路保证各个站点都能连通，并且总的修建公路总里程最短
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/8
  */
 public class KruskalCase {

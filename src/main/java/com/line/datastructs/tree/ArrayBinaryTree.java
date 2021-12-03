@@ -2,7 +2,7 @@ package com.line.datastructs.tree;
 
 /**
  * @desc 顺序二叉树
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/12
  */
 public class ArrayBinaryTree {

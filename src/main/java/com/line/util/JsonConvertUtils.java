@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 /**
  * @desc json转换工具类，针对第二层对象无法转换问题
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/19
  */
 public class JsonConvertUtils {

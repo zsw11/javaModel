@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  *  (1) Vector
  *  (2) synchronizedList
  *  (3) CopyOnWriteArrayList
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/8
  */
 public class LockDemo {

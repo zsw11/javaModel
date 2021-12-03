@@ -14,7 +14,7 @@ import java.util.stream.Stream;
  *  3.2 归约
  * 4.字符串拼接
  * 5.分组、分区
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/11
  */
 public class StreamOperatorDemo {

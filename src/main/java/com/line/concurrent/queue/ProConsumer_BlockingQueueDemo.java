@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  *  （1）生产：BlockingQueue.offer(val, timeout, timeout_unit)
  *  （2）消费：BlockingQueue.poll(timeout, timeout_unit)
  *  （3）开关：需要一个标识，循环等待
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/23
  */
 public class ProConsumer_BlockingQueueDemo {

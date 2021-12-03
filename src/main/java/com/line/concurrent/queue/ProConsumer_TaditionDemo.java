@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *  判断      干活              通知
  *  防止虚假唤醒：多线程判断一定要用while，防止虚假唤醒！！！
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/23
  */
 public class ProConsumer_TaditionDemo {

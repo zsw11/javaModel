@@ -2,7 +2,7 @@ package com.line.datastructs.stack;
 
 /**
  * @desc ArrayStack
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/2
  */
 public class ArrayStack {

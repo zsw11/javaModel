@@ -18,7 +18,7 @@ import java.util.Random;
  *
  * 案例：
  *      {8, 4, 5, 7, 1, 3, 6, 2}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/6
  */
 public class MergeSort {

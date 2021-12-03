@@ -32,7 +32,7 @@ import java.util.function.Supplier;
  *
  * 四、数组引用
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/9
  */
 public class MyFuncInterfaceDemo {

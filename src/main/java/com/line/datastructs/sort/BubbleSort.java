@@ -10,7 +10,7 @@ import java.util.Arrays;
  *  （1）length-1：每一轮循环是两个数比较，所以-1
  *  （2）length-1-i：-1跟同上；每一轮结束会有一个最小值到数组最末端，所以每次-i
  * 2.如果 arr[j] > arr[j+1] 交换两个值的位置（arr[j] = arr[j+1]），需要用temp临时变量保存arr[j]的值
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/4
  */
 public class BubbleSort {

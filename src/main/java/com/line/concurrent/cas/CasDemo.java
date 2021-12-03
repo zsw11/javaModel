@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @desc CAS保证原子性
  * T1 100 -> 101
  * T2 100 -> 2019
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/20
  */
 public class CasDemo {

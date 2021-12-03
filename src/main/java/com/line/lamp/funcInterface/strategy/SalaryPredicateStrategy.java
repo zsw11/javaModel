@@ -5,7 +5,7 @@ import com.line.lamp.funcInterface.MyPredicate;
 
 /**
  * @desc SalaryPredicateStrategy
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/9
  */
 public class SalaryPredicateStrategy implements MyPredicate<Employee> {

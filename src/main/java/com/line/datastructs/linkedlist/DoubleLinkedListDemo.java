@@ -2,7 +2,7 @@ package com.line.datastructs.linkedlist;
 
 /**
  * @desc 双向链表
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/2
  */
 public class DoubleLinkedListDemo {

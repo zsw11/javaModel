@@ -2,7 +2,7 @@ package com.line.datastructs.tree.binarysorttree;
 
 /**
  * @desc 二叉排序树
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class BinarySortTree {

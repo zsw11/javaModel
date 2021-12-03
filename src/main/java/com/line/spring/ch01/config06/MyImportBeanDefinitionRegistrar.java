@@ -7,7 +7,7 @@ import org.springframework.core.type.AnnotationMetadata;
 
 /**
  * @desc 自定义逻辑注册需要的组件
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {

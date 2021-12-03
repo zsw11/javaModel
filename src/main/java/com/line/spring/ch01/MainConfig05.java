@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * 2.Conditional注解可以添加在类、方法上
  *  案例：根据当前系统自动使用不同的配置类，linux使用linuxCondition，window使用windowCondition
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Conditional({WindowsCondition.class})

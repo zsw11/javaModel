@@ -6,7 +6,7 @@ package com.line.datastructs.tree;
  *      {1, 3, 6, 8, 10, 14}
  *  中序遍历方式：
  *      {8, 3, 10, 1, 14, 6}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class ThreadedBinaryTreeDemo {

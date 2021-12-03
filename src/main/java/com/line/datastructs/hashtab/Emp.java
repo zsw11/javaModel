@@ -2,7 +2,7 @@ package com.line.datastructs.hashtab;
 
 /**
  * @desc 员工信息表
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/12
  */
 public class Emp {

@@ -4,7 +4,7 @@ package com.line.algorithm;
  * @desc 二分查询（非递归方式）
  * 案例：
  * {1,3,8,10,11,67,100}，编程实现二分查找，要求使用非递归方式完成。
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/27
  */
 public class BinarySearchNonRecursive {

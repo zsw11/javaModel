@@ -15,7 +15,7 @@ import java.util.Arrays;
  *      A-C[7] G-E[4] G-F[6] B-D[9]
  *  ...
  *  4.{A,G,B,E,F,D} -> C // 第6次大循环，对应边<A,C>权值：7 => <A,G,B,E,F,D,C>
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/4
  */
 public class PrimAlgorithm {

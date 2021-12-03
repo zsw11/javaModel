@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @desc 倒计时
  *  5个人都走了，才关门?
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/9
  */
 public class CountDownLatchDemo {

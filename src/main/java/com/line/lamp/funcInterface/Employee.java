@@ -2,7 +2,7 @@ package com.line.lamp.funcInterface;
 
 /**
  * @desc 员工信息
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/9
  */
 public class Employee {

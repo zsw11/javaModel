@@ -11,7 +11,7 @@ package com.line.datastructs.recursion;
  * （1）已经找到（确定找到的条件：第7行6列即为找到 =》 [6,5]=2）
  * （2）还没有找到按策略去找
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/3
  */
 public class MingGong {

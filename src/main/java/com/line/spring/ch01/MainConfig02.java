@@ -16,7 +16,7 @@ import org.springframework.stereotype.Controller;
  *              FilterType.ANNOTATION 按照注释
  *              FilterType.ASSIGNABLE_TYPE 按照给定的类型
  *              FilterType.CUSTOM 按照自定义规则
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Configuration

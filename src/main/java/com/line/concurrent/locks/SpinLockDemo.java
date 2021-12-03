@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * @desc SpinLockDemo
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/29
  */
 public class SpinLockDemo {

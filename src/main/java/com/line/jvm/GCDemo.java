@@ -27,7 +27,7 @@ package com.line.jvm;
  * 7（理论知道即可，实际中已经被优化掉了，没有了。）
  *  -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseSerialOldGC
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/28
  */
 public class GCDemo {

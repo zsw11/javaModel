@@ -12,7 +12,7 @@ import java.util.Scanner;
  *  （1）使用链表来实现哈希表，该链表不带表头，即：链表的第一个结点放存放雇员
  *  （2）思路分析并画出示意图
  *  （3）代码实现【增删改查（显示所有员工，按id查询）】
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/12
  */
 public class HashTabDemo {
