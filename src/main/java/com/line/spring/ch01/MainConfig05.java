@@ -20,13 +20,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MainConfig05 {
 
-//    @Conditional({WindowsCondition.class})
+    @Conditional({WindowsCondition.class})
     @Bean("bill")
     public Person person01(){
         return new Person("Bill Gates", 62);
     }
 
-//    @Conditional({LinuxCondition.class})
+    @Conditional({LinuxCondition.class})
     @Bean("linus")
     public Person person02(){
         return new Person("linus", 48);
