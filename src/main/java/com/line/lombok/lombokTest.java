@@ -8,5 +8,7 @@ public class lombokTest {
     public static void main(String[] args) {
         User user = User.builder().testHobbies("ss").testHobbies("wwww").build();
         System.out.println(user);
+        int a = 305 /3;
+        System.out.println(a);
     }
 }
