@@ -1,6 +1,8 @@
 package com.line;
 
 import com.sun.corba.se.impl.protocol.giopmsgheaders.LocateReplyMessage_1_0;
+import com.sun.org.apache.bcel.internal.generic.NEW;
+import javafx.scene.shape.Circle;
 import sun.security.krb5.internal.crypto.Aes128;
 
 import java.util.ArrayList;
@@ -25,6 +27,10 @@ public class App
         long[] arr = new long[]{1l,4l,3l,3l};
         List list = Arrays.asList(arr);
         System.out.println(list.get(0));
+        ArrayList<Circle> longs = new ArrayList<Circle>();
+        for (Circle s : longs) {
+            System.out.println(s.getCenterX());
+        }
     }
     public static void addEffect(){
         //不指定下标插入
