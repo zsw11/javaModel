@@ -70,5 +70,5 @@ public class OddEventDemo {
 
 class OddEventNum {
     volatile int num = 1; // 从1开始
-    boolean flag = true; // 奇数
+    volatile boolean flag = true; // 奇数
 }

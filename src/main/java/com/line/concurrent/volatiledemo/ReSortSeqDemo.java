@@ -9,7 +9,6 @@ public class ReSortSeqDemo {
      int a = 0;
      boolean flag = false;
     public void method01() { // a与flag没有依赖关系，存在指令重排的可能性
-
         a = 1;
         flag = true;
     }

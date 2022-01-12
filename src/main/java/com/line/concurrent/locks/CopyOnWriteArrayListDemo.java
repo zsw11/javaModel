@@ -61,7 +61,7 @@ public class CopyOnWriteArrayListDemo {
             @Override
             public void run() {
                 copyOnWriteArrayList.set(2, 100);
-            }
+            } //写进去的没有立马读出来，读出来的还是 1
         });
 
         executorService.shutdown();

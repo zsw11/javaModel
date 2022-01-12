@@ -41,7 +41,7 @@ public class ProConsumer_BlockingQueueDemo {
 class MyResource {
     // 开关
     private volatile boolean FLAG = true; // 默认开启，进行生产+消费者
-    private AtomicInteger atomicInteger = new AtomicInteger();
+    private final AtomicInteger atomicInteger = new AtomicInteger();
     BlockingQueue<String> blockingQueue = null;
     public MyResource(BlockingQueue<String> blockingQueue) {
         this.blockingQueue = blockingQueue;
@@ -70,7 +70,7 @@ class MyResource {
 
         while (FLAG) {
             result = blockingQueue.poll(2L, TimeUnit.SECONDS);
-            if (null == result || "".equals(result)) {
+            if (FLAG && (null == result || "".equals(result))) {  // 避免 FLAG被修改为false,但是当前线程已经运行到这个，认为 FLAG为true
                 FLAG = false;
                 System.out.println(Thread.currentThread().getName() + "\t 超过2秒没有取到蛋糕，消费退出");
                 System.out.println();

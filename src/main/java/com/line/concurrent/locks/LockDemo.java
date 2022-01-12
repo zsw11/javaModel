@@ -22,17 +22,13 @@ public class LockDemo {
 //        Vector<Integer> list = new Vector<>();
 //        List<Integer> list = Collections.synchronizedList(new ArrayList<>());
         List<Integer> list = new CopyOnWriteArrayList();
-        for (int i = 1; i <= 10000; i++) {
+        for (int i = 1; i <= 100000; i++) {
             new Thread(() -> {
-                try {
-                    TimeUnit.MILLISECONDS.sleep(500);
-                    list.add(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                //                    TimeUnit.MILLISECONDS.sleep(500);
+                list.add(1);
             },"T" + i).start();
         }
         TimeUnit.SECONDS.sleep(2);
-        System.out.println(list.size());
+        System.out.println(list.size()); // 结果可能不为100000，但是使用CopyOnWriteArrayList结果就一定是100000
     }
 }
