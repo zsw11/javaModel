@@ -12,6 +12,7 @@ public class Person {
     public Person(String name, Integer age) {
         this.name = name;
         this.age = age;
+        System.out.println("person的构造函数");
     }
 
     public String getName() {

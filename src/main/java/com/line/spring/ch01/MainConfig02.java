@@ -20,13 +20,13 @@ import org.springframework.stereotype.Controller;
  * @Date 2019/10/24
  */
 @Configuration
-@ComponentScan(value = "com.line.spring.ch01.config02",
+@ComponentScan(value = "com.line.spring.ch01.config02"
         /*excludeFilters = {
                 @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class}),
                 @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {PersonService.class}),
                 @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})
         },*/
-        includeFilters = {
+        ,includeFilters = { //只加载Controller
                 @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class})
         }, useDefaultFilters = false
 )
