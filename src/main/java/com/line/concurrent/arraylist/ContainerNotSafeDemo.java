@@ -17,23 +17,24 @@ import java.util.concurrent.CopyOnWriteArraySet;
  * @Date 2019/8/20
  */
 public class ContainerNotSafeDemo {
+    static  Map<String, String> map = new HashMap<>(); //java.util.ConcurrentModificationException
     public static void main(String[] args) {
-        listNotSafe();
+//        listNotSafe();
 //        setNotSafe();
-//        mapNotSafe();
+        mapNotSafe();
     }
 
     private static void mapNotSafe() {
         // Map<String, String> map = new HashMap<>();
         // Map<String, String> map = Collections.synchronizedMap(new HashMap<>());
-        Map<String, String> map = new ConcurrentHashMap<>();
+
         for (int i = 1; i <= 30; i++) {
             new Thread(() -> {
                 map.put(Thread.currentThread().getName(), Thread.currentThread().getName());
                 System.out.println(Thread.currentThread().getName());
-//                System.out.println(map);
             }, String.valueOf(i)).start();
         }
+        System.out.println(map);
     }
 
     private static void setNotSafe() {
