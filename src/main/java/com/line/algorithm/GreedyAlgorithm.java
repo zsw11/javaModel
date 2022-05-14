@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  * @Author xw
  * @Date 2019/9/27
  */
-public class GreedyAlgorithm {
+public class   GreedyAlgorithm {
     public static void main(String[] args) {
 
         Map<String, Set<String>> broadcasts = new HashMap<>(); // 广播电台

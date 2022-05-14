@@ -269,7 +269,7 @@ class SingleLinkedList {
         while (cur != null) {
 
             heroNodeStack.push((HeroNode)cur.clone());
-            // 后移
+            // 后移v
             cur = cur.next;
         }
         // 遍历栈，定义一个新链表reverseHead = new HeroNode()，依次加入新链表
