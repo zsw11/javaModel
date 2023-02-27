@@ -16,7 +16,7 @@ import java.util.Random;
  *
  * 案例：
  *  {-9,78,0,23,-567,70}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/6
  */
 public class QuickSort {

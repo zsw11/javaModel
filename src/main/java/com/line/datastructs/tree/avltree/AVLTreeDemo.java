@@ -26,7 +26,7 @@ import java.util.Arrays;
  *          1.2）先对当前这个节点的左节点进行左旋转
  *          1.3）再对当前结点进行右旋转的操作即可
  *          2）当符合左旋转的条件时（与符合右旋转的条件同理）
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/17
  */
 public class AVLTreeDemo {

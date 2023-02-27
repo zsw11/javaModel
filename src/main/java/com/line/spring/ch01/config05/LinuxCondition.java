@@ -6,7 +6,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 
 /**
  * @desc LinuxCondition
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/16
  */
 public class LinuxCondition implements Condition {

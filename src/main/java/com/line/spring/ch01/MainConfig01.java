@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @desc 配置类==配置文件
  *      @Configuration 使用配置类
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Configuration // 告诉Spring这是一个配置文件

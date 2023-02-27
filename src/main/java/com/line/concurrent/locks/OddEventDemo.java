@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @desc OddEventDemo
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/9
  */
 public class OddEventDemo {
@@ -70,5 +70,5 @@ public class OddEventDemo {
 
 class OddEventNum {
     volatile int num = 1; // 从1开始
-    boolean flag = true; // 奇数
+    volatile boolean flag = true; // 奇数
 }

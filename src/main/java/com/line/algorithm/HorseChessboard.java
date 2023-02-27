@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @desc 马踏棋盘算法
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/8
  */
 public class HorseChessboard {

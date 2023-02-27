@@ -17,7 +17,7 @@ import java.util.function.Supplier;
  *      R apply(T t);
  *  Predicate<T>：断言型接口
  *      boolean test(T t);
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/9
  */
 public class JDKFuncInterfaceDemo {

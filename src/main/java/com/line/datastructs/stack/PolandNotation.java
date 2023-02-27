@@ -24,7 +24,7 @@ import java.util.*;
  * 7.将s1中剩余的运算符依次弹出并压入s2
  * 8.依次弹出s2中的元素并输出，结果的逆序即为表达式对应的后缀表达式
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/3
  */
 public class PolandNotation {

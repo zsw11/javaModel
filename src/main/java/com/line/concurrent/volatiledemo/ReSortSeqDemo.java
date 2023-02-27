@@ -2,14 +2,13 @@ package com.line.concurrent.volatiledemo;
 
 /**
  * @desc 指令重排
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/8
  */
 public class ReSortSeqDemo {
      int a = 0;
      boolean flag = false;
     public void method01() { // a与flag没有依赖关系，存在指令重排的可能性
-
         a = 1;
         flag = true;
     }

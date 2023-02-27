@@ -13,20 +13,20 @@ import org.springframework.context.annotation.Configuration;
  * 2.Conditional注解可以添加在类、方法上
  *  案例：根据当前系统自动使用不同的配置类，linux使用linuxCondition，window使用windowCondition
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Conditional({WindowsCondition.class})
 @Configuration
 public class MainConfig05 {
 
-//    @Conditional({WindowsCondition.class})
+    @Conditional({WindowsCondition.class})
     @Bean("bill")
     public Person person01(){
         return new Person("Bill Gates", 62);
     }
 
-//    @Conditional({LinuxCondition.class})
+    @Conditional({LinuxCondition.class})
     @Bean("linus")
     public Person person02(){
         return new Person("linus", 48);

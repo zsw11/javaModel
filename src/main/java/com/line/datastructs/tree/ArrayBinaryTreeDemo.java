@@ -9,7 +9,7 @@ package com.line.datastructs.tree;
  *  （3）第n个元素的父节点为arr[(n-1)/2]
  * 案例：
  *  给个数组：{1, 2, 3, 4, 5, 6, 7}，要求以前序遍历的方式遍历，结果为：1,2,4,5,3,6,7
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/12
  */
 public class ArrayBinaryTreeDemo {

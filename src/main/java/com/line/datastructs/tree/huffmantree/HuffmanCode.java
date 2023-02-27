@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @desc 赫夫曼编码
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class HuffmanCode {

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 /**
  * @desc json转换工具类，针对第二层对象无法转换问题
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/19
  */
 public class JsonConvertUtils {
@@ -40,7 +40,8 @@ public class JsonConvertUtils {
         }
         String s = "s";
         final String finals = s;
-        s = "s1";
+//        finals = "s1"; // 不能改变final修饰变量的地址
+        s = "s1"; // 改变了地址的值
         System.out.println(s);
         int a = 1;
         final int finalInt = a;

@@ -15,7 +15,7 @@ package com.line.datastructs.stack;
  *
  * 验证：
  *  3+2*6-2=13
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/2
  */
 public class Calculator {

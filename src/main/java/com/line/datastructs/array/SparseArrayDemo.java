@@ -2,7 +2,7 @@ package com.line.datastructs.array;
 
 /**
  * @desc 稀疏数组
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/10
  */
 public class SparseArrayDemo {
@@ -30,8 +30,8 @@ public class SparseArrayDemo {
     }
 
     private static int[][] sparseArrayToTowDimensionalArray(int[][] sparseArray) {
-        int[][] twoDimensionalArrayNew = new int[sparseArray[0][0]][sparseArray[0][1]];
-        for (int i = 1; i < sparseArray[0][2]; i++) { // 从第二行开始遍历
+        int[][] twoDimensionalArrayNew = new int[sparseArray[0][0]][sparseArray[0][1]];// 6行7列
+        for (int i = 1; i < sparseArray[0][2]; i++) { // 从第二行开始遍历，遍历size为8
             twoDimensionalArrayNew[sparseArray[i][0]][sparseArray[i][1]] = sparseArray[i][2];
         }
         return twoDimensionalArrayNew;
@@ -50,7 +50,7 @@ public class SparseArrayDemo {
         // 第一行
         sparseArray[0][0] = originArray.length; // 6行
         sparseArray[0][1] = originArray[0].length; // 7列
-        sparseArray[0][2] = availableNum; // 非0值数量
+        sparseArray[0][2] = availableNum; // 非0值数量  8个非0的数值
         /*// 第二行
         sparseArray[1][0] = 0;
         sparseArray[1][1] = 3;

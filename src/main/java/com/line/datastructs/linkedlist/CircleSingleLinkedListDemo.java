@@ -17,7 +17,7 @@ package com.line.datastructs.linkedlist;
  *      first = first.next
  *      helper.next = first
  *      原来的first节点没有任何引用，就会被回收
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/2
  */
 public class CircleSingleLinkedListDemo {

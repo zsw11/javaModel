@@ -2,7 +2,7 @@ package com.line.spring.ch01.bean;
 
 /**
  * @desc Person
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/16
  */
 public class Person {
@@ -12,6 +12,7 @@ public class Person {
     public Person(String name, Integer age) {
         this.name = name;
         this.age = age;
+        System.out.println("person的构造函数");
     }
 
     public String getName() {

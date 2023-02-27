@@ -6,7 +6,7 @@ package com.line.datastructs.stack;
  * 2.定义一个top表示顶
  * 3.入栈 arr[++top] = data
  * 4.出栈 return arr[--top]
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/2
  */
 public class ArrayStackDemo {

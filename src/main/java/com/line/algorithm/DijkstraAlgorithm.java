@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 2. 各个村庄的距离用边线表示（权），比如A-B距离5公里
  * 3. 问：如何计算最短距离
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/8
  */
 public class DijkstraAlgorithm {

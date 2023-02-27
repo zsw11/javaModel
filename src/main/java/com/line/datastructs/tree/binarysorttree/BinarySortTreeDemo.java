@@ -35,7 +35,7 @@ package com.line.datastructs.tree.binarysorttree;
  *
  * 案例：
  * {7,3,10,12,5,1,9}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class BinarySortTreeDemo {

@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @desc 计数器
  *  5个人都到齐了才出发
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/9
  */
 public class CyclicBarrierDemo {

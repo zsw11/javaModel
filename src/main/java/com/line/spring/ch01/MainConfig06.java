@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Import;
  *      (AnnotationMetadata annotationMetadata, BeanDefinitionRegistry registry) {
  *          registry.registerBeanDefinition("rainbow", new RootBeanDefinition(Rainbow.class));
  *      }
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Configuration

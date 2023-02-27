@@ -10,7 +10,7 @@ import java.io.IOException;
 
 /**
  * @desc 自定义Filter
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/16
  */
 public class MyTypeFilter implements TypeFilter {

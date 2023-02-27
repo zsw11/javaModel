@@ -3,7 +3,7 @@ package com.line.datastructs.tree;
 /**
  * @desc 二叉树遍历
  *  案例：1-宋江、2-吴用、3-卢俊义、4-林冲
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/12
  */
 public class BinaryTreeDemo {

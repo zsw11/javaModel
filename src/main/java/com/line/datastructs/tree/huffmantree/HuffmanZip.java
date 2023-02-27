@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
  * （3）使用赫夫曼编码来生成赫夫曼编码数据，即按照上面的赫夫曼编码，将"i like like ..."
  *      字符串生成对应的编码数据，形式如下：
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class HuffmanZip {

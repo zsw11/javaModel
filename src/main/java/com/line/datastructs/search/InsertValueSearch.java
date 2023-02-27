@@ -16,7 +16,7 @@ import java.util.stream.Stream;
  *
  *  案例：
  *      {1,2,3...100}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/11
  */
 public class InsertValueSearch {

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Scope;
 /**
  * @desc Scope作用域
  *
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Configuration

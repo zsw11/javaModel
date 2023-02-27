@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @desc ReentrantLockDemo
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/9
  */
 public class ReentrantLockDemo {

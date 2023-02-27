@@ -37,7 +37,7 @@ package com.line.algorithm;
  * n--;
  * }
  * // T <- MERGE(y1,y2...yk) 合并子问题
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/27
  */
 public class HanoiTower {

@@ -7,7 +7,7 @@ package com.line.datastructs.stack;
  *      进栈
  *      出栈
  *      遍历
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/12
  */
 public class StackDemo {

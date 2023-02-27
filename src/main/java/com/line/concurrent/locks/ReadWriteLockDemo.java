@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * 读读共存
  * 读写互斥
  * 写写互斥
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/20
  */
 public class ReadWriteLockDemo {

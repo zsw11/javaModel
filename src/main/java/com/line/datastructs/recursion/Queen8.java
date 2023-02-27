@@ -19,7 +19,7 @@ package com.line.datastructs.recursion;
  *  // arr[1] = 4 表示第2个皇后（第二行）放在第5列，即[1,4]
   * 下标表示第几行 即第几个皇后
  *  arr[i] = val，val表示第i+1个皇后放在第i+1行的第val+1列
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/4
  */
 public class Queen8 {

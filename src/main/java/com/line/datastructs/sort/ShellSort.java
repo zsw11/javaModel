@@ -15,7 +15,7 @@ import java.util.Random;
  *
  *  案例：
  *      {8, 9, 1, 7, 2, 3, 5, 4, 6, 0}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/5
  */
 public class ShellSort {

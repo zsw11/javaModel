@@ -12,7 +12,7 @@ import java.util.Random;
  *      使之成为新的有序节点
  * 实例：
  *  {101, 34, 119, 1}
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/4
  */
 public class InsertSort {

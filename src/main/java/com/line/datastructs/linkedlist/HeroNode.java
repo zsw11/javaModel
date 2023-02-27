@@ -2,7 +2,7 @@ package com.line.datastructs.linkedlist;
 
 /**
  * @desc HeroNode
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/2
  */
 public class HeroNode implements Cloneable {

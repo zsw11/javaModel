@@ -13,27 +13,28 @@ import java.util.concurrent.CopyOnWriteArraySet;
  *      2.1 new Vector<>();
  *      2.2 Collections.synchronizedList(new ArrayList<>());
  *      2.3 new CopyOnWriteArrayList<>();
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/20
  */
 public class ContainerNotSafeDemo {
+    static  Map<String, String> map = new HashMap<>(); //java.util.ConcurrentModificationException
     public static void main(String[] args) {
-        listNotSafe();
-        //setNotSafe();
-//        mapNotSafe();
+//        listNotSafe();
+//        setNotSafe();
+        mapNotSafe();
     }
 
     private static void mapNotSafe() {
         // Map<String, String> map = new HashMap<>();
         // Map<String, String> map = Collections.synchronizedMap(new HashMap<>());
-        Map<String, String> map = new ConcurrentHashMap<>();
+
         for (int i = 1; i <= 30; i++) {
             new Thread(() -> {
                 map.put(Thread.currentThread().getName(), Thread.currentThread().getName());
                 System.out.println(Thread.currentThread().getName());
-                System.out.println(map);
             }, String.valueOf(i)).start();
         }
+        System.out.println(map);
     }
 
     private static void setNotSafe() {
@@ -43,7 +44,7 @@ public class ContainerNotSafeDemo {
         for (int i = 1; i <= 30; i++) {
             new Thread(() -> {
                 list.add(UUID.randomUUID().toString().substring(0, 8));
-                System.out.println(list);
+//                System.out.println(list);
             }, String.valueOf(i)).start();
         }
     }
@@ -56,7 +57,7 @@ public class ContainerNotSafeDemo {
         for (int i = 1; i <= 30; i++) {
             new Thread(() -> {
                 list.add(UUID.randomUUID().toString().substring(0, 8));
-                System.out.println(list);
+//                System.out.println(list);
             }, String.valueOf(i)).start();
         }
     }

@@ -16,17 +16,17 @@ import org.springframework.stereotype.Controller;
  *              FilterType.ANNOTATION 按照注释
  *              FilterType.ASSIGNABLE_TYPE 按照给定的类型
  *              FilterType.CUSTOM 按照自定义规则
- * @Author xw
+ *@Author zsw
  * @Date 2019/10/24
  */
 @Configuration
-@ComponentScan(value = "com.line.spring.ch01.config02",
+@ComponentScan(value = "com.line.spring.ch01.config02"
         /*excludeFilters = {
                 @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class}),
                 @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {PersonService.class}),
                 @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})
         },*/
-        includeFilters = {
+        ,includeFilters = { //只加载Controller
                 @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class})
         }, useDefaultFilters = false
 )

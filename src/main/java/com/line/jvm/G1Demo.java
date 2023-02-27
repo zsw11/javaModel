@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * @desc
  *  -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+UseG1GC
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/28
  */
 public class G1Demo {

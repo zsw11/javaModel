@@ -2,7 +2,7 @@ package com.line.datastructs.tree;
 
 /**
  * @desc 线索化二叉树
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/16
  */
 public class ThreadedBinaryTree {

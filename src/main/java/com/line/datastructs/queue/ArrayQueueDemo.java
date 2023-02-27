@@ -10,7 +10,7 @@ package com.line.datastructs.queue;
  *      2.2 添加：rear++
  *      2.3 获取：fornt++
  *      2.4 遍历：for (front-rear)
- * @Author xw
+ *@Author zsw
  * @Date 2019/8/10
  */
 public class ArrayQueueDemo {

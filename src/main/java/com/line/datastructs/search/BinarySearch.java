@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
  *  1.在找到mid索引值时，不要立马返回
  *  2.向mid索引值的左边扫描，将所有满足条件元素的下标，加入到集合
  *  3.向mid索引值的右边扫描，将所有满足条件元素的下标，加入到集合
- * @Author xw
+ *@Author zsw
  * @Date 2019/9/11
  */
 public class BinarySearch {
